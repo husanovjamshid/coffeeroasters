@@ -216,8 +216,12 @@ img {
     padding: 104px 58px;
     background-image: url("../images/header-bg-table.jpg");
   }
+  .collection__inner {
+    max-width: 689px;
+  }
   .collection__content {
     padding-top: 70px;
+    max-width: 689px;
   }
   .collection__list {
     display: grid;
@@ -242,13 +246,13 @@ img {
   }
 }
 @media only screen and (max-width: 576px) {
-  .logo__img {
-    width: 163px;
-    height: 18px;
-  }
   .hero__inner {
     padding: 100px 24px;
     background-image: url("../images/header-bg-mobile.jpg");
+  }
+  .logo__img {
+    max-width: 163px;
+    height: 18px;
   }
   .navbar {
     display: none;
@@ -256,10 +260,6 @@ img {
   .site-header__menu {
     display: block;
     margin-left: auto;
-  }
-  .hero__content {
-    max-width: 279px;
-    margin: 0 auto;
   }
   .hero__title {
     margin-bottom: 24px;
@@ -281,7 +281,10 @@ img {
     max-width: 217px;
   }
   .collection__item {
+    max-width: 282px;
     flex-direction: column;
+    display: block;
+    margin: 0 auto;
   }
   .collection__item + .collection__item {
     margin-top: 48px;

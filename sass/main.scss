@@ -222,9 +222,14 @@ img {
         background-image: url('../images/header-bg-table.jpg');
     }
 
+    .collection__inner {
+        max-width: 689px;
+    }
+    
     .collection__content {
         padding-top: 70px;
-   
+        max-width: 689px;
+        
     }
 
     .collection__list {  
@@ -256,17 +261,14 @@ img {
 }
 
 @media only screen and (max-width: 576px) {
-    
-
-    .logo__img {
-        width: 163px;
-        height: 18px;
-    }
-    
     .hero__inner {
-        // max-width: 327px;
         padding: 100px 24px;
         background-image: url('../images/header-bg-mobile.jpg');
+    }
+
+    .logo__img {
+        max-width: 163px;
+        height: 18px;
     }
     
     .navbar {
@@ -279,8 +281,7 @@ img {
     }
     
     .hero__content {
-        max-width: 279px;
-        margin: 0 auto;
+        // text-align: center;
     }
     
     .hero__title {
@@ -307,7 +308,10 @@ img {
     }
 
     .collection__item {
+        max-width: 282px;
         flex-direction: column;
+        display: block;
+        margin: 0 auto;
     }
 
     .collection__item + .collection__item {
