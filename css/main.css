@@ -234,6 +234,9 @@ img {
     display: flex;
     align-items: center;
   }
+  .collection__item + .collection__item {
+    margin-top: 24px;
+  }
   .collection__wrap {
     max-width: 282px;
   }
@@ -292,5 +295,206 @@ img {
   }
   .collection__item + .collection__item {
     margin-top: 48px;
+  }
+}
+.choose {
+  padding-bottom: 150px;
+}
+
+.choose__content {
+  width: 100%;
+  max-width: 540px;
+  margin: 0 auto;
+}
+
+.choose__inner {
+  position: relative;
+  padding: 112px 85px 0 85px;
+  background-color: #333D4B;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.choose__title {
+  margin: 0;
+  margin-bottom: 32px;
+  font-family: "Fraunces", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  color: #FEFCF7;
+}
+
+.choose__desc {
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #FEFCF7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.choose__list {
+  margin: 0;
+  position: relative;
+  top: 130px;
+  padding: 0;
+  width: 100%;
+  max-width: 1110px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.choose__item {
+  padding: 72px 48px 48px;
+  width: 100%;
+  max-width: 350px;
+  background: #0E8784;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.choose-card__title {
+  margin: 0;
+  margin-bottom: 24px;
+  font-family: "Fraunces", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #FEFCF7;
+}
+
+.choose-card__wrap::before {
+  margin: 0 auto;
+  margin-bottom: 56px;
+  content: "";
+  display: block;
+  width: 72px;
+  height: 72px;
+  background-image: url("../images/choose-1.svg");
+  background-repeat: no-repeat;
+}
+
+.card__2::before {
+  content: "";
+  background-image: url("../images/choose-2.svg");
+}
+
+.card__3::before {
+  content: "";
+  background-image: url("../images/choose-3.svg");
+}
+
+.choose-card__desc {
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #FEFCF7;
+}
+
+@media only screen and (max-width: 768px) {
+  .choose__inner {
+    padding: 71px 74px 0 74px;
+    max-height: 590px;
+  }
+  .choose__list {
+    top: 66px;
+    flex-direction: column;
+  }
+  .choose__item {
+    padding: 41px 48px 41px 48px;
+    max-width: 573px;
+  }
+  .choose-card__title {
+    text-align: start;
+  }
+  .choose-card__desc {
+    text-align: start;
+  }
+  .choose__item + .choose__item {
+    margin-top: 24px;
+  }
+  .choose-card__wrap::before {
+    display: none;
+  }
+  .choose-card__wrap {
+    max-width: 344px;
+    margin-left: 55px;
+  }
+  .choose-card {
+    display: flex;
+    align-items: center;
+  }
+  .choose-card::before {
+    margin: 0 auto;
+    content: "";
+    display: block;
+    width: 56px;
+    height: 56px;
+    background-image: url("../images/choose-1.svg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .choose__inner {
+    max-height: 900px;
+    padding: 64px 24px;
+  }
+  .choose-card::before {
+    display: none;
+  }
+  .choose-card__wrap::before {
+    margin: 0 auto;
+    margin-bottom: 56px;
+    content: "";
+    display: block;
+    width: 56px;
+    height: 56px;
+    background-image: url("../images/choose-1.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .choose__title {
+    font-size: 28px;
+    line-height: 28px;
+  }
+  .choose-card__wrap {
+    max-width: 212px;
+    margin: 0 auto;
+  }
+  .choose-card__title {
+    text-align: center;
+  }
+  .choose-card__desc {
+    text-align: center;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .choose__item {
+    padding: 72px 33px 51px 33px;
+    display: block;
+  }
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1) {
+  /* Retina-specific stuff here */
+  .hero__inner {
+    background-image: url("../images/header-bg@2x.jpg");
+  }
+  .hero__inner .hero__inner {
+    background-image: url("../images/header-bg-table@2x.png");
+  }
+  .hero__inner .hero__inner {
+    background-image: url("../images/header-bg-mobile@2x.png");
   }
 }/*# sourceMappingURL=main.css.map */
