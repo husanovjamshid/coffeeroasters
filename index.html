@@ -12,9 +12,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap" rel="stylesheet">
     <title>Homework</title>
     <link rel="stylesheet" href="./css/normalize.css">
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/main.min.css">
+    <!-- <link rel="stylesheet" href="./css/main.css"> -->
 </head>
 <body>
+    <!-- HEADER START -->
     <header class="site-header">
         <div class="container">
             <div class="site-header__inner">
@@ -38,7 +40,9 @@
             </div>
         </div>
     </header>
-    
+    <!-- HEADER END -->
+
+    <!-- MAIN START -->
     <main>
         <section class="hero">
             <div class="container">
@@ -63,9 +67,13 @@
                         <ul class="collection__list">
                             <li class="collection__item">
                                 <picture>
-                                    
+                                    <source type="image/webp"
+                                    srcset="./images/espresso-coffee.webp 1x, ./images/espresso-coffee@2x.webp 2x"
+                                    >
+
                                     <img src="./images/espresso-coffee.png" 
-                                    srcset="./images/espresso-coffee.png 1x, ./images/espresso-coffee@2x.png 2x" width="255" height="193" alt="espresso coffee">
+                                    srcset="./images/espresso-coffee.png 1x, ./images/espresso-coffee@2x.png 2x" 
+                                    width="255" height="193" alt="espresso coffee">
                                 </picture>
                                 
                                <div class="collection__wrap">
@@ -75,9 +83,13 @@
                             </li>
                             <li class="collection__item">
                                 <picture>
-                                    
+                                    <source type="image/webp"
+                                    srcset="./images/espresso-coffee.webp 1x, ./images/espresso-coffee@2x.webp 2x"
+                                    >
+
                                     <img src="./images/espresso-coffee.png" 
-                                    srcset="./images/espresso-coffee.png 1x, ./images/espresso-coffee@2x.png 2x" width="255" height="193" alt="espresso coffee">
+                                    srcset="./images/espresso-coffee.png 1x, ./images/espresso-coffee@2x.png 2x" 
+                                    width="255" height="193" alt="espresso coffee">
                                 </picture>
                                 
                                 <div class="collection__wrap">
@@ -87,9 +99,13 @@
                             </li>
                             <li class="collection__item">
                                 <picture>
-                                    
+                                    <source type="image/webp"
+                                    srcset="./images/espresso-coffee.webp 1x, ./images/espresso-coffee@2x.webp 2x"
+                                    >
+
                                     <img src="./images/espresso-coffee.png" 
-                                    srcset="./images/espresso-coffee.png 1x, ./images/espresso-coffee@2x.png 2x" width="255" height="193" alt="espresso coffee">
+                                    srcset="./images/espresso-coffee.png 1x, ./images/espresso-coffee@2x.png 2x" 
+                                    width="255" height="193" alt="espresso coffee">
                                 </picture>
                                 
                                 <div class="collection__wrap">
@@ -151,5 +167,6 @@
             </div>
         </section>
     </main>
+    <!-- MAIN END -->
 </body>
 </html>
