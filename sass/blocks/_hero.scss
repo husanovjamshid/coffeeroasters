@@ -1,0 +1,149 @@
+
+.hero {
+    padding-bottom: 163px;
+}
+
+.hero__inner {
+    padding: 117px 85px;
+    background-image: url('../images/header-bg.jpg');
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    background-size: 100% 100%;
+}
+
+.hero__content {
+    width: 100%;
+    max-width: 493px;
+}
+
+.hero__title {
+    margin: 0;
+    margin-bottom: 23px;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FEFCF7;
+}
+
+.hero__text {
+    width: 100%;
+    max-width: 445px;
+}
+
+.hero__desc {
+    margin: 0;
+    margin-bottom: 56px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.hero__link {
+    display: inline-block;
+    padding: 15px 31px;
+    background: #0E8784;
+    border-radius: 6px;
+    font-family: 'Fraunces', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FEFCF7;
+    text-decoration: none;
+    transition: all .4s ease;
+    
+    &:hover {
+        background: #66D2CF;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .hero__inner {
+        padding: 100px 24px;
+        background-image: url('../images/header-bg-mobile.jpg');
+    }
+    
+    .hero__content {
+        max-width: 279px;
+        margin: 0 auto;
+    }
+    
+    .logo__img {
+        max-width: 163px;
+        height: 18px;
+    }
+    
+    .navbar {
+        display: none;
+    }
+    
+    .site-header__menu {
+        display: block;
+        margin-left: auto;
+    }
+    
+    
+    
+    .hero__title {
+        margin-bottom: 24px;
+        text-align: center;
+        font-size: 40px;
+        line-height: 40px;
+    }
+    
+    .hero__text {
+        max-width: 279px;
+    }
+    
+    .hero__desc {
+        margin-bottom: 40px;
+        text-align: center;
+        font-size: 15px;
+    }
+    
+    .hero__link {
+        display: block;
+        margin: 0 auto;
+        max-width: 217px;
+    }
+    
+    .collection__item {
+        max-width: 282px;
+        flex-direction: column;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .collection__item + .collection__item {
+        margin-top: 48px;
+    }
+    
+    
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1) { 
+    
+    /* Retina-specific stuff here */
+    
+    .hero__inner {  
+        background-image: url('../images/header-bg@2x.jpg');
+        
+    .hero__inner {
+        background-image: url('../images/header-bg-table@2x.png');
+    }
+
+    .hero__inner {
+        background-image: url('../images/header-bg-mobile@2x.png');
+    }
+        
+    }
+}

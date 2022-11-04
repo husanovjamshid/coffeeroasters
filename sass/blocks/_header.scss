@@ -1,0 +1,44 @@
+.site-header {
+    padding: 44px 0;
+}
+
+.site-header__inner {
+    display: flex;
+    align-items: center;
+}
+
+.navbar {
+    margin-left: auto;
+}
+
+.navbar__list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.navbar__link {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #83888F;
+    transition: all .4s ease;
+    
+    &:hover {
+        color: #333D4B;
+    }
+}
+
+.navbar__link + .navbar__link {
+    margin-left: 33px;
+}
+
+.site-header__menu {
+    border: none;
+    background-color: transparent;
+    display: none;
+}
