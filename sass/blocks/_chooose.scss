@@ -47,9 +47,7 @@
     width: 100%;
     max-width: 1110px;
     list-style-type: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    @include flex()
 }
 
 .choose__item {
@@ -148,8 +146,7 @@
     }
     
     .choose-card {
-        display: flex;
-        align-items: center;
+        @include flex($justify: null);
         &::before {
             margin: 0 auto;
             content: "";

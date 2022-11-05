@@ -1,0 +1,22 @@
+
+
+.works__line {
+    margin: 80px 0 67px;
+    position: relative;
+    top: 0;
+    @include flex();
+    width: 100%;
+    max-width: 760px;
+    height: 1px;
+    border: 2px solid #FDD6BA;
+}
+
+.line__circle {
+    content: "";
+    display: block;
+    width: 31px;
+    height: 31px;
+    background: #FEFCF7;
+    border: 2px solid #0E8784;
+    border-radius: 50%;
+}
