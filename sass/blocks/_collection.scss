@@ -55,12 +55,8 @@
 }
 
 
-@media  only screen and (max-width: 768px) {
-    .hero__inner {
-        padding: 104px 58px;
-        background-image: url('../images/header-bg-table.jpg');
-    }
-    
+@include media(768px) {
+  
     .collection__inner {
         max-width: 689px;
     }
@@ -68,7 +64,6 @@
     .collection__content {
         padding-top: 70px;
         max-width: 689px;
-        
     }
     
     .collection__list {  
@@ -99,8 +94,33 @@
     .collection__desc {
         margin-bottom: 24px;
     }
+    
+}
 
-  
-    
-    
+@include media(576px) {
+    .collection__content {
+        padding-top: 70px;
+        max-width: 282px;
+    }
+
+    .collection__inner {
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+        background-image: url("../images/collect-mobile.svg");
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: 100% ;
+    }
+
+    .collection__list {  
+        display: grid;
+        grid-template-columns: 282px;
+        grid-template-rows: repeat(4, 1fr);
+        justify-content: center;
+    }
+
+    .collection__item {
+        max-width: 282px;
+    }
 }

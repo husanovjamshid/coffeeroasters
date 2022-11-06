@@ -226,16 +226,18 @@
 }
 
 @include media(576px) {
-    .hero__inner {
-        background-size: cover;
-        background-position: right center;
-    }
 
     .works {
         margin-bottom: 0;
     }
 
-    
+    .works__line {
+        display: none;
+    }
+
+    .works__item {
+        max-width: 327px;
+    }
 
     .footer__list {
         flex-direction: column;
@@ -244,6 +246,10 @@
 
     .footer__item + .footer__item {
         margin-left: 0;
+    }
+
+    .works__item-wrap {
+        margin: 0 auto;
     }
 
     

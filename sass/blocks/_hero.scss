@@ -63,7 +63,7 @@
     }
 }
 
-@media only screen and (max-width: 576px) {
+@include media(576px) {
     .hero__inner {
         padding: 100px 24px;
         background-image: url('../images/header-bg-mobile.jpg');
@@ -127,23 +127,3 @@
     
 }
 
-@media
-only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (   min--moz-device-pixel-ratio: 2),
-only screen and (     -o-min-device-pixel-ratio: 2/1) { 
-    
-    /* Retina-specific stuff here */
-    
-    .hero__inner {  
-        background-image: url('../images/header-bg@2x.jpg');
-        
-    .hero__inner {
-        background-image: url('../images/header-bg-table@2x.png');
-    }
-
-    .hero__inner {
-        background-image: url('../images/header-bg-mobile@2x.png');
-    }
-        
-    }
-}

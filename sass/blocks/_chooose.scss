@@ -106,7 +106,7 @@
 }
 
 
-@media only screen and (max-width: 768px) {
+@include media(768px) {
     .choose__inner {
         padding: 71px 74px 0 74px;
         max-height: 590px;
@@ -161,12 +161,16 @@
     
 }
 
-@media only screen and (max-width: 576px) {
+@include media(576px) {
     .choose__inner {
         max-height: 900px;
+        max-width: 535px;
         padding: 64px 24px;
     }
     
+    .choose__content {
+        max-width: 279px;
+    }
     
     .choose-card {
         
@@ -214,5 +218,6 @@
     .choose__item {
         padding: 72px 33px 51px 33px;
         display: block;
+        max-width: 279px;
     }
 }
