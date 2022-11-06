@@ -997,12 +997,8 @@ img {
   }
 }
 .site-footer {
-  padding-bottom: 88px;
-}
-
-.site-footer__inner {
   background: #2C343E;
-  padding: 45px 80px;
+  padding: 65px 80px;
 }
 
 .site-footer__content {
