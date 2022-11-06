@@ -97,11 +97,11 @@
     .works {
         padding: 250px 0;
     }
-
+    
     .works__item {
         max-width: 223px;
     }
-
+    
     .works__item + .works__item {
         margin-left: 10px;
     }
@@ -122,10 +122,129 @@
     .works {
         margin: 300px 0;
     }
+    
+    .works__title {
+        text-align: center;
+    }
+    
+    .works__line {
+        display: none;
+    }
+    
+    .works__list {
+        flex-direction: column;
+    }
+    
+    .works__item {
+        text-align: center;
+    }
+    
+    .works__item + .works__item {
+        margin-top: 56px;
+    }
+    
+    .works__link {
+        max-width: 217px;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .works__link {
+        margin-top: 79px;
+    }
 }
 
 @include media(360px) {
     .works {
-        margin: 500px 0;
+        margin: 400px 0;
     }
+}
+
+.site-footer {
+    padding-bottom: 88px;
+}
+
+.site-footer__inner {
+    background: #2C343E;
+    padding: 45px 80px;
+}
+
+.site-footer__content {
+    @include flex($justify:null)
+}
+
+.footer__list {
+    margin: 0;
+    padding: 0;
+    margin-left: 103px;
+    list-style-type: none;
+    @include flex($justify:null)
+}
+
+.footer__item + .footer__item {
+    margin-left: 32px;
+}
+
+.footer__link {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #83888F;
+    text-decoration: none;
+    transition: all .4s ease;
+
+    &:hover {
+        color: #FEFCF7;
+    }
+}
+
+.icons {
+    margin-left: auto;
+}
+
+.icon + .icon {
+    margin-left: 24px;
+}
+
+@include media(768px) {
+    .site-footer__content {
+        flex-direction: column;
+        
+    }
+
+    .footer__list {
+        margin: 33px 0 65px;
+    }
+
+    .icons {
+        margin-left: 0;
+        text-align: center;
+    }
+    
+}
+
+@include media(576px) {
+    .hero__inner {
+        background-size: cover;
+        background-position: right center;
+    }
+
+    .works {
+        margin-bottom: 0;
+    }
+
+    
+
+    .footer__list {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer__item + .footer__item {
+        margin-left: 0;
+    }
+
+    
 }

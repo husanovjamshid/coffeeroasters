@@ -1,0 +1,88 @@
+.commit {
+    padding-bottom: 168px;
+}
+
+.commit__inner {
+    width: 100%;
+    max-width: 1110px;
+    margin: 0 auto;
+    @include flex()
+}
+
+.commit__title {
+    margin: 0;
+    margin-bottom: 32px;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #333D4B;
+}
+
+.commit__desc {
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.commit__content {
+    width: 100%;
+    max-width: 540px;
+}
+
+@include media(768px) {
+    .commit__title {
+        font-size: 32px;
+        line-height: 48px;
+    }
+
+    .commit__desc {
+        text-align: justify;
+    }
+
+    .commit__inner img {
+        width: 100%;
+        max-width: 281px;
+        max-height: 470px;
+        border-radius: 10px;
+    }
+
+    .commit__content {
+        max-width: 339px;
+    }
+}
+
+@include media(700px) {
+    .commit__inner {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .commit__inner img {
+        max-width: 500px;
+    }
+
+    .commit__content {
+        max-width: 500px;
+    }
+}
+
+@include media(576px) {
+    .commit__inner {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .commit__inner img {
+        max-width: 327px;
+    }
+
+    .commit__content {
+        max-width:327px;
+    }
+}

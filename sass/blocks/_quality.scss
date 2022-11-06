@@ -1,0 +1,117 @@
+
+
+.quality {
+    padding-bottom: 150px;
+}
+
+.quality__content {
+    width: 100%;
+    max-width: 540px;
+}
+
+.quality__inner {
+    position: relative;
+    padding: 88px 85px 176px 85px;
+    background-color: #333D4B;
+    border-radius: 10px;
+}
+
+.quality__bg {
+    width: 445px;
+    height: 474px;
+    position: absolute;
+    right: 51px;
+    top: -76px;
+    background-image: url('../images/quality-bg.jpg');
+    border-radius: 10px;
+}
+
+.quality__title {
+    margin: 0;
+    margin-bottom: 32px;
+    font-family: 'Fraunces', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+}
+
+.quality__desc {
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+@include media(768px) {
+    .quality {
+        padding-top: 100px;
+        padding-bottom: 0;
+    }
+    
+    .quality__bg {
+        width: 100%;
+        max-width: 573px;
+        max-height: 320px;
+        top: -160px;
+        left: 0;
+        right: 0;
+        display: block;
+        margin: 0 auto;
+        background-image: url('../images/commit-table.png');
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .quality__content {
+        margin: 0 auto;
+        margin-top: 150px;
+        margin-bottom: 0;
+    }
+    
+    .quality__inner {
+        padding: 86px;
+    }
+}
+
+@include media(576px) {
+    .quality__bg {
+        width: 100%;
+        max-width: 279px;
+        max-height: 156px;
+        top: -78px;
+        left: 0;
+        right: 0;
+        display: block;
+        margin: 0 auto;
+        background-image: url('../images/commit-table.png');
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .quality__inner {
+        position: relative;
+        padding: 24px 24px 61px 24px;
+        background-color: #333D4B;
+        border-radius: 10px;
+    }
+    
+    .quality__content {
+        max-width: 279px;
+    }
+    
+    .quality__title {
+        font-size: 28px;
+        line-height: 28px;
+        text-align: center;
+    }
+
+    .quality__desc {
+        text-align: center;
+    }
+}
+

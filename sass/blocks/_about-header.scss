@@ -1,0 +1,19 @@
+.about {
+    padding: 117px 85px;
+    background-image: url('../images/about-bg.jpg');
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+@include media(576px) {
+    .about {
+        padding: 111px 24px 87px 24px;
+        background-image: url('../images/about-mobile.jpg');
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        background-size: cover;
+        background-position: center;
+    }
+}
