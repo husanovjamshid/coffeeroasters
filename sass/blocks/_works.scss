@@ -165,9 +165,9 @@
     padding: 65px 80px;
 }
 
-.site-footer__inner {
+// .site-footer__inner {
     
-}
+// }
 
 .site-footer__content {
     @include flex($justify:null)
@@ -253,4 +253,26 @@
     }
 
     
+}
+
+.hero__plan {
+    padding-bottom: 120px;
+}
+
+.works__plan {
+    padding: 0;
+    padding-bottom: 120px;
+}
+
+.works__plan-wrap {
+    padding: 100px 150px 100px 85px;
+    background-color: #22343D;
+}
+
+.plan__title {
+    color: #FEFCF7;
+}
+
+.plan__desc {
+    color: #FEFCF7;
 }

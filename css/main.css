@@ -1074,6 +1074,28 @@ img {
     margin: 0 auto;
   }
 }
+.hero__plan {
+  padding-bottom: 120px;
+}
+
+.works__plan {
+  padding: 0;
+  padding-bottom: 120px;
+}
+
+.works__plan-wrap {
+  padding: 100px 150px 100px 85px;
+  background-color: #22343D;
+}
+
+.plan__title {
+  color: #FEFCF7;
+}
+
+.plan__desc {
+  color: #FEFCF7;
+}
+
 .commit {
   padding-bottom: 168px;
 }
@@ -1449,4 +1471,146 @@ img {
   .hero__inner .about {
     background-image: url("../images/about-mobile@2x.jpg");
   }
+}
+.coffee__inner {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.content__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.content__item {
+  width: 100%;
+  max-width: 255px;
+  display: flex;
+  align-items: center;
+}
+
+.content__item-number {
+  margin: 0;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888F;
+}
+
+.content__item-menu {
+  margin: 0;
+  margin-left: 28px;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888F;
+}
+
+.content__item-line {
+  width: 255px;
+  height: 1px;
+  display: block;
+  margin: 24px 0;
+  background: #83888F;
+  mix-blend-mode: normal;
+  opacity: 0.25;
+}
+
+.coffee {
+  padding-bottom: 120px;
+}
+
+.coffee__choose {
+  width: 100%;
+  max-width: 730px;
+  height: 80px;
+  overflow: hidden;
+  transition: all 0.4s ease;
+}
+
+.coffee__choose + .coffee__choose {
+  margin-top: 88px;
+}
+
+.open {
+  height: 350px;
+}
+
+.coffee__choose-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  margin-bottom: 56px;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #83888F;
+  cursor: pointer;
+}
+.coffee__choose-title::after {
+  content: "";
+  display: block;
+  width: 19px;
+  height: 12px;
+  background-image: url("../../images/up-to-up.svg");
+}
+
+.box__form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.box__input:checked ~ .card {
+  background: #0E8784;
+}
+
+.box__input:checked ~ .card > .box__title {
+  color: #fff;
+}
+
+.box__input:checked ~ .card > .box__desc {
+  color: #fff;
+}
+
+.box__title {
+  margin: 0;
+  margin-bottom: 24px;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333D4B;
+}
+
+.box__desc {
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+}
+
+.card {
+  width: 100%;
+  max-width: 228px;
+  padding: 32px 28px 84px 28px;
+  background: #F4F1EB;
+  border-radius: 8px;
+}
+
+.coffee__order {
+  width: 100%;
+  max-width: 720px;
+  background-color: #22343D;
 }/*# sourceMappingURL=main.css.map */
