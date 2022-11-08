@@ -62,7 +62,7 @@
     width: 100%;
     margin-bottom: 15px;
     max-width: 730px;
-    height: 65px;
+    height: 50px;
     overflow: hidden;
     transition: all .4s ease;
 }
@@ -70,8 +70,9 @@
 .coffee__choose-two {
     width: 100%;
     margin-bottom: 15px;
+    margin-top: 35px;
     max-width: 730px;
-    height: 65px;
+    height: 50px;
     overflow: hidden;
     transition: all .4s ease;
 }
@@ -79,8 +80,9 @@
 .coffee__choose-three {
     width: 100%;
     margin-bottom: 15px;
+    margin-top: 35px;
     max-width: 730px;
-    height: 65px;
+    height: 50px;
     overflow: hidden;
     transition: all .4s ease;
 }
@@ -88,8 +90,9 @@
 .coffee__choose-four {
     width: 100%;
     margin-bottom: 15px;
+    margin-top: 35px;
     max-width: 730px;
-    height: 65px;
+    height: 50px;
     overflow: hidden;
     transition: all .4s ease;
 }
@@ -97,30 +100,31 @@
 .coffee__choose-five {
     width: 100%;
     margin-bottom: 15px;
+    margin-top: 35px;
     max-width: 730px;
-    height: 65px;
+    height: 50px;
     overflow: hidden;
     transition: all .4s ease;
 }
 
 .coffee__choose + .coffee__choose {
-    margin-top: 88px;
+    margin-top: 95px;
 }
 
 .coffee__choose-two + .coffee__choose-two {
-    margin-top: 88px;
+    margin-top: 95px;
 }
 
 .coffee__choose-three + .coffee__choose-three {
-    margin-top: 88px;
+    margin-top: 95px;
 }
 
 .coffee__choose-four + .coffee__choose-four {
-    margin-top: 88px;
+    margin-top: 95px;
 }
 
 .coffee__choose-five + .coffee__choose-five {
-    margin-top: 88px;
+    margin-top: 95px;
 }
 
 .open {
@@ -434,6 +438,6 @@
         margin: 10px auto;
         max-width: 370px;
     }
-
+ 
 
 }
