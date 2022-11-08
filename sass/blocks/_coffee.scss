@@ -379,6 +379,10 @@
 }
 
 @include media(576px) {
+    .hero__inner {
+        padding: 101px 24px 136px 24px;
+    }
+
     .box {
         flex-direction: column;
     }
@@ -431,27 +435,5 @@
         max-width: 370px;
     }
 
-
-    
-
-    // .coffee__choose {
-    //     height: 65px;
-    // }
-
-    // .coffee__choose-two {
-    //     height: 65px;
-    // }
-
-    // .coffee__choose-three {
-    //     height: 65px;
-    // }
-
-    // .coffee__choose-four {
-    //     height: 65px;
-    // }
-
-    // .coffee__choose-five {
-    //     height: 65px;
-    // }
 
 }

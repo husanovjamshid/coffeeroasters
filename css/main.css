@@ -1108,6 +1108,13 @@ img {
   .works__plan-wrap {
     padding: 80px 24px;
   }
+  .works {
+    margin: 0;
+  }
+  .works__plan {
+    margin: 0;
+    margin-top: 120px;
+  }
 }
 .commit {
   padding-bottom: 168px;
@@ -1862,6 +1869,9 @@ img {
   }
 }
 @media only screen and (max-width: 576px) {
+  .hero__inner {
+    padding: 101px 24px 136px 24px;
+  }
   .box {
     flex-direction: column;
   }
